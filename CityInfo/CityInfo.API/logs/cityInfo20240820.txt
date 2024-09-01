@@ -1,0 +1,416 @@
+2024-08-20 00:46:38.351 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 00:46:38.907 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 00:46:39.626 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 00:47:34.049 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 00:47:34.451 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 00:47:34.480 -03:00 [DBG] Creating DbConnection.
+2024-08-20 00:47:34.495 -03:00 [DBG] Created DbConnection. (13ms).
+2024-08-20 00:47:34.498 -03:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.503 -03:00 [DBG] Creating DbConnection.
+2024-08-20 00:47:34.505 -03:00 [DBG] Created DbConnection. (2ms).
+2024-08-20 00:47:34.506 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.524 -03:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.525 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.528 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-20 00:47:34.529 -03:00 [DBG] Creating DbConnection.
+2024-08-20 00:47:34.529 -03:00 [DBG] Created DbConnection. (0ms).
+2024-08-20 00:47:34.529 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.529 -03:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.529 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.529 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:34.529 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.540 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.549 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:34.553 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2024-08-20 00:47:34.554 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2024-08-20 00:47:34.559 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-08-20 00:47:34.583 -03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-08-20 00:47:34.584 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.586 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-20 00:47:34.643 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:34.643 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:34.644 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:34.644 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.644 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.644 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-08-20 00:47:34.651 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-08-20 00:47:34.651 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.651 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:34.652 -03:00 [DBG] Creating DbConnection.
+2024-08-20 00:47:34.652 -03:00 [DBG] Created DbConnection. (0ms).
+2024-08-20 00:47:34.652 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.652 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.653 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.653 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:34.656 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-20 00:47:34.656 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 00:47:34.656 -03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 00:47:34.656 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.656 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.657 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 00:47:34.659 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 00:47:34.659 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.659 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:34.660 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:34.660 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.660 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-20 00:47:34.660 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 00:47:34.660 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 00:47:34.661 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 00:47:34.661 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 00:47:34.662 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.663 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 1ms reading results.
+2024-08-20 00:47:34.663 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:34.663 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:34.670 -03:00 [INF] Applying migration '20240820034639_CityInfoDBInitialMigration'.
+2024-08-20 00:47:35.871 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:35.871 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:35.875 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-20 00:47:35.878 -03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-08-20 00:47:35.878 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:35.878 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.878 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.879 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-08-20 00:47:35.879 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-08-20 00:47:35.879 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:35.879 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.879 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.879 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-08-20 00:47:35.879 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-08-20 00:47:35.879 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:35.879 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.879 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.879 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2024-08-20 00:47:35.880 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2024-08-20 00:47:35.880 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 00:47:35.880 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.880 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 00:47:35.880 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820034639_CityInfoDBInitialMigration', '8.0.0');
+2024-08-20 00:47:35.880 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820034639_CityInfoDBInitialMigration', '8.0.0');
+2024-08-20 00:47:35.881 -03:00 [DBG] Committing transaction.
+2024-08-20 00:47:35.884 -03:00 [DBG] Committed transaction.
+2024-08-20 00:47:35.885 -03:00 [DBG] Disposing transaction.
+2024-08-20 00:47:35.885 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 00:47:35.885 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 00:47:35.886 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 00:47:35.887 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 00:47:35.887 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:15:00.849 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 01:15:01.331 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 01:15:02.070 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 01:15:19.042 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 01:15:19.403 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 01:15:19.428 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:15:19.442 -03:00 [DBG] Created DbConnection. (11ms).
+2024-08-20 01:15:19.444 -03:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.449 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:15:19.451 -03:00 [DBG] Created DbConnection. (1ms).
+2024-08-20 01:15:19.452 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.482 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.494 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.498 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-20 01:15:19.502 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-20 01:15:19.505 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2024-08-20 01:15:19.506 -03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (5ms).
+2024-08-20 01:15:19.506 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.508 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.512 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:15:19.533 -03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:15:19.534 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.536 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (2ms).
+2024-08-20 01:15:19.537 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:15:19.537 -03:00 [DBG] Created DbConnection. (0ms).
+2024-08-20 01:15:19.537 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:15:19.538 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 01:15:19.538 -03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 01:15:19.538 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.538 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:15:19.539 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:15:19.539 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.539 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:15:19.551 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.551 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.551 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-20 01:15:19.551 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 01:15:19.551 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 01:15:19.551 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 01:15:19.553 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 01:15:19.555 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.556 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 2ms reading results.
+2024-08-20 01:15:19.556 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.727 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (171ms).
+2024-08-20 01:15:19.744 -03:00 [INF] Applying migration '20240820041502_CityInfoAddPOIDescription'.
+2024-08-20 01:15:19.773 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.773 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.776 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-20 01:15:19.779 -03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-08-20 01:15:19.780 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 01:15:19.780 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:15:19.780 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:15:19.781 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NULL;
+2024-08-20 01:15:19.781 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NULL;
+2024-08-20 01:15:19.781 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 01:15:19.781 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:15:19.782 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:15:19.782 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820041502_CityInfoAddPOIDescription', '8.0.0');
+2024-08-20 01:15:19.782 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820041502_CityInfoAddPOIDescription', '8.0.0');
+2024-08-20 01:15:19.783 -03:00 [DBG] Committing transaction.
+2024-08-20 01:15:19.825 -03:00 [DBG] Committed transaction.
+2024-08-20 01:15:19.826 -03:00 [DBG] Disposing transaction.
+2024-08-20 01:15:19.827 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:15:19.827 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:15:19.828 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 01:15:19.829 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:15:19.829 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:37:26.044 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 01:37:26.532 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 01:37:26.967 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 01:37:47.951 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-20 01:37:48.428 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-20 01:37:48.448 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:37:48.461 -03:00 [DBG] Created DbConnection. (12ms).
+2024-08-20 01:37:48.464 -03:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.469 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:37:48.471 -03:00 [DBG] Created DbConnection. (1ms).
+2024-08-20 01:37:48.472 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.495 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.503 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.506 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-20 01:37:48.510 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-20 01:37:48.516 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2024-08-20 01:37:48.517 -03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (7ms).
+2024-08-20 01:37:48.517 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.519 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.525 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:37:48.550 -03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:37:48.551 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.553 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-20 01:37:48.554 -03:00 [DBG] Creating DbConnection.
+2024-08-20 01:37:48.554 -03:00 [DBG] Created DbConnection. (0ms).
+2024-08-20 01:37:48.555 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.556 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.556 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.556 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:37:48.556 -03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-08-20 01:37:48.556 -03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 01:37:48.556 -03:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-08-20 01:37:48.556 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.556 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.557 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:37:48.557 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-08-20 01:37:48.557 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.557 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:37:48.573 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.573 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.573 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-20 01:37:48.573 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 01:37:48.573 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-20 01:37:48.574 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 01:37:48.574 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-08-20 01:37:48.576 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.578 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 2ms reading results.
+2024-08-20 01:37:48.578 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.635 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (57ms).
+2024-08-20 01:37:48.645 -03:00 [INF] Applying migration '20240820043726_InitialDataSeed'.
+2024-08-20 01:37:48.683 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:48.683 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:48.686 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-08-20 01:37:48.689 -03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-08-20 01:37:48.690 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 01:37:48.691 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:48.691 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:48.691 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big watch.', 'London');
+SELECT changes();
+2024-08-20 01:37:48.692 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York City');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+SELECT changes();
+
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big watch.', 'London');
+SELECT changes();
+2024-08-20 01:37:48.692 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 01:37:48.692 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:48.692 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:48.692 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the USA.', 'Central Park');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skycraper located in Midtown Manhattan.', 'Empire State Building');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A gothic style cathedral, conceived by architects Jan and Pieter Appelmans.', 'Cathedral');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The finest example of railway architecture in Belgium.', 'Central Station');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'One of the most visited museums of the world', 'British Museum');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'Place of residence of the british royal family.', 'Windsor Palace');
+SELECT changes();
+2024-08-20 01:37:48.693 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited urban park in the USA.', 'Central Park');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skycraper located in Midtown Manhattan.', 'Empire State Building');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A gothic style cathedral, conceived by architects Jan and Pieter Appelmans.', 'Cathedral');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The finest example of railway architecture in Belgium.', 'Central Station');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'One of the most visited museums of the world', 'British Museum');
+SELECT changes();
+
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'Place of residence of the british royal family.', 'Windsor Palace');
+SELECT changes();
+2024-08-20 01:37:50.546 -03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-08-20 01:37:50.546 -03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:50.546 -03:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-08-20 01:37:50.546 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820043726_InitialDataSeed', '8.0.0');
+2024-08-20 01:37:50.546 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240820043726_InitialDataSeed', '8.0.0');
+2024-08-20 01:37:50.547 -03:00 [DBG] Committing transaction.
+2024-08-20 01:37:50.560 -03:00 [DBG] Committed transaction.
+2024-08-20 01:37:50.561 -03:00 [DBG] Disposing transaction.
+2024-08-20 01:37:50.561 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-20 01:37:50.561 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:37:50.563 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-20 01:37:50.564 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-20 01:37:50.564 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-20 01:38:56.326 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-20 01:38:56.656 -03:00 [DBG] Hosting starting
+2024-08-20 01:38:57.060 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-20 01:38:57.060 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-20 01:38:57.060 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-20 01:38:57.060 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-20 01:38:57.439 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-20 01:38:57.455 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-20 01:38:57.456 -03:00 [INF] Hosting environment: Development
+2024-08-20 01:38:57.456 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-20 01:38:57.456 -03:00 [DBG] Hosting started
+2024-08-20 01:38:57.658 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-20 01:38:57.726 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-20 01:38:57.729 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-20 01:38:57.822 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-20 01:38:57.822 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-20 01:38:57.828 -03:00 [DBG] Connection ID "18158513703463419905" disconnecting.
+2024-08-20 01:38:57.830 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 395.5308ms
+2024-08-20 01:38:57.869 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-20 01:38:57.876 -03:00 [DBG] Connection ID "18302628887244308489" disconnecting.
+2024-08-20 01:38:57.877 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.848ms
+2024-08-20 01:38:57.894 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-20 01:38:57.973 -03:00 [DBG] Connection ID "18302628900129210383" disconnecting.
+2024-08-20 01:38:57.974 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.8282ms
+2024-08-20 01:38:58.598 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-20 01:38:58.830 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 232.78ms

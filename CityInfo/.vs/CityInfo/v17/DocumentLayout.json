@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matia\\Documents\\Practicas .net\\CityInfo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C49E417-5EA2-4625-BE96-334B4D0F125B}|CityInfo.API\\CityInfo.API.csproj|c:\\users\\matia\\documents\\practicas .net\\cityinfo\\cityinfo.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C49E417-5EA2-4625-BE96-334B4D0F125B}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 17,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\Documents\\Practicas .net\\CityInfo\\CityInfo.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\matia\\Documents\\Practicas .net\\CityInfo\\CityInfo.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "CityInfo.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwEoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T21:00:31.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 383,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f37f5141-198e-4181-9582-7b026ee8f915}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,590 @@
+2024-08-21 23:11:29.662 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-21 23:11:29.924 -03:00 [DBG] Hosting starting
+2024-08-21 23:11:30.338 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-21 23:11:30.338 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-21 23:11:30.338 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-21 23:11:30.338 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-21 23:11:30.672 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 23:11:30.672 -03:00 [INF] Hosting environment: Development
+2024-08-21 23:11:30.672 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-21 23:11:30.672 -03:00 [DBG] Hosting started
+2024-08-21 23:11:30.726 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-21 23:11:30.973 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:11:31.041 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-21 23:11:31.042 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-21 23:11:31.135 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-21 23:11:31.136 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-21 23:11:31.144 -03:00 [DBG] Connection ID "18302628887244308493" disconnecting.
+2024-08-21 23:11:31.145 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 424.3575ms
+2024-08-21 23:11:31.191 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-21 23:11:31.197 -03:00 [DBG] Connection ID "18230571301796315138" disconnecting.
+2024-08-21 23:11:31.198 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.3803ms
+2024-08-21 23:11:31.243 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-21 23:11:31.318 -03:00 [DBG] Connection ID "18230571301796315140" disconnecting.
+2024-08-21 23:11:31.319 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.3964ms
+2024-08-21 23:11:32.081 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-21 23:11:32.319 -03:00 [DBG] Connection ID "18302628900129210387" disconnecting.
+2024-08-21 23:11:32.319 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 238.7179ms
+2024-08-21 23:11:58.527 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/api/cities - null null
+2024-08-21 23:11:58.534 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:11:58.573 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:11:58.576 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:11:58.579 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:11:58.619 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:11:58.681 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:11:58.687 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityInfo.API.Controllers.CitiesController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-21 23:11:58.903 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:11:58.907 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-08-21 23:11:58.908 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-21 23:11:58.910 -03:00 [DBG] Connection ID "18158513712053354497" disconnecting.
+2024-08-21 23:11:58.910 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/api/cities - 500 null null 382.8904ms
+2024-08-21 23:12:35.197 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:12:35.199 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:12:35.201 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:12:35.201 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:12:35.202 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:12:35.203 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:12:35.212 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:12:35.214 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityInfo.API.Controllers.CitiesController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-21 23:12:35.219 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:12:35.221 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:12:35.223 -03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-08-21 23:12:35.226 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-08-21 23:12:35.728 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 500 399 application/problem+json; charset=utf-8 530.7915ms
+2024-08-21 23:13:31.734 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-21 23:13:31.982 -03:00 [DBG] Hosting starting
+2024-08-21 23:13:32.213 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-21 23:13:32.213 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-21 23:13:32.213 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-21 23:13:32.213 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-21 23:13:32.298 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-21 23:13:32.494 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:13:32.505 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 23:13:32.506 -03:00 [INF] Hosting environment: Development
+2024-08-21 23:13:32.506 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-21 23:13:32.506 -03:00 [DBG] Hosting started
+2024-08-21 23:13:32.643 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-21 23:13:32.647 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-21 23:13:32.681 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-21 23:13:32.682 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-21 23:13:32.696 -03:00 [DBG] Connection ID "18302628887244308495" disconnecting.
+2024-08-21 23:13:32.703 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-21 23:13:32.696 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 410.5106ms
+2024-08-21 23:13:32.709 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-21 23:13:32.718 -03:00 [DBG] Connection ID "18302628887244308497" disconnecting.
+2024-08-21 23:13:32.721 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 7.0632ms
+2024-08-21 23:13:32.753 -03:00 [DBG] Connection ID "18302628900129210391" disconnecting.
+2024-08-21 23:13:32.758 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.7727ms
+2024-08-21 23:13:32.809 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-21 23:13:33.313 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 504.3717ms
+2024-08-21 23:13:33.313 -03:00 [DBG] Connection ID "18158513707758387203" disconnecting.
+2024-08-21 23:13:39.239 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/api/cities - null null
+2024-08-21 23:13:39.244 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:13:39.295 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:13:39.300 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:13:39.302 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:13:39.307 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:13:39.334 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:13:39.339 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityInfo.API.Controllers.CitiesController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-21 23:13:39.434 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:13:39.440 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-08-21 23:13:39.441 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-08-21 23:13:39.443 -03:00 [DBG] Connection ID "18086456118015426563" disconnecting.
+2024-08-21 23:13:39.443 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/api/cities - 500 null null 204.5722ms
+2024-08-21 23:14:04.965 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:14:04.966 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:14:04.967 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:14:04.968 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:14:04.969 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:14:04.969 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:14:04.977 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:14:04.978 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityInfo.API.Controllers.CitiesController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass12_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-21 23:14:04.983 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:14:04.984 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:14:04.986 -03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml"]'.
+2024-08-21 23:14:04.988 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-08-21 23:14:05.164 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 500 399 application/problem+json; charset=utf-8 199.0003ms
+2024-08-21 23:41:09.691 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-21 23:41:09.867 -03:00 [DBG] Hosting starting
+2024-08-21 23:41:10.072 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-21 23:41:10.073 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-21 23:41:10.073 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-21 23:41:10.073 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-21 23:41:10.098 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-21 23:41:10.279 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 23:41:10.279 -03:00 [INF] Hosting environment: Development
+2024-08-21 23:41:10.279 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-21 23:41:10.280 -03:00 [DBG] Hosting started
+2024-08-21 23:41:10.298 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:41:10.491 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-21 23:41:10.493 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-21 23:41:10.574 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-21 23:41:10.575 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-21 23:41:10.599 -03:00 [DBG] Connection ID "18158513699168452609" disconnecting.
+2024-08-21 23:41:10.580 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 490.5727ms
+2024-08-21 23:41:10.680 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-21 23:41:10.687 -03:00 [DBG] Connection ID "18230571297501347844" disconnecting.
+2024-08-21 23:41:10.689 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.5789ms
+2024-08-21 23:41:10.720 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-21 23:41:10.777 -03:00 [DBG] Connection ID "18158513707758387205" disconnecting.
+2024-08-21 23:41:10.783 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.5608ms
+2024-08-21 23:41:11.338 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-21 23:41:11.819 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 481.9463ms
+2024-08-21 23:41:11.820 -03:00 [DBG] Connection ID "18158513707758387207" disconnecting.
+2024-08-21 23:42:07.407 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:42:07.415 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:42:07.474 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:42:07.479 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:42:07.481 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:42:07.486 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:42:07.535 -03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutPointOfInterestDTO]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-08-21 23:42:07.540 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-21 23:42:07.540 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-21 23:42:07.541 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-21 23:42:07.541 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-21 23:42:07.541 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-21 23:42:07.546 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:42:07.900 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-21 23:42:08.248 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:42:09.814 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-21 23:42:09.868 -03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2024-08-21 23:42:10.218 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(500), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-21 23:42:10.270 -03:00 [DBG] Creating DbConnection.
+2024-08-21 23:42:10.288 -03:00 [DBG] Created DbConnection. (16ms).
+2024-08-21 23:42:10.293 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:42:10.330 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:42:10.339 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-21 23:42:10.351 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2024-08-21 23:42:10.353 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2024-08-21 23:42:10.365 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:42:10.459 -03:00 [INF] Executed DbCommand (93ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:42:10.498 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:42:10.524 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:42:10.525 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:42:10.531 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:42:10.543 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 72ms reading results.
+2024-08-21 23:42:10.548 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:42:10.555 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (5ms).
+2024-08-21 23:42:10.560 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:42:10.562 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:42:10.563 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-21 23:42:10.563 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-21 23:42:10.565 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-21 23:42:10.566 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityWithoutPointOfInterestDTO, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 23:42:10.726 -03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 3179.5687ms
+2024-08-21 23:42:10.726 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:42:10.731 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-21 23:42:10.736 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:42:10.737 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-21 23:42:10.738 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 200 248 application/json; charset=utf-8 3330.9086ms
+2024-08-21 23:48:17.817 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-21 23:48:17.925 -03:00 [DBG] Hosting starting
+2024-08-21 23:48:18.104 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-21 23:48:18.104 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-21 23:48:18.104 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-21 23:48:18.104 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-21 23:48:18.122 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-21 23:48:18.122 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:48:18.132 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:48:18.156 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:48:18.184 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:48:18.186 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:48:18.187 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:48:18.190 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:48:18.226 -03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutPointOfInterestDTO]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-08-21 23:48:18.228 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-21 23:48:18.229 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-21 23:48:18.231 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-21 23:48:18.231 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-21 23:48:18.231 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-21 23:48:18.233 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:48:18.236 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 23:48:18.237 -03:00 [INF] Hosting environment: Development
+2024-08-21 23:48:18.237 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-21 23:48:18.237 -03:00 [DBG] Hosting started
+2024-08-21 23:48:18.424 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-21 23:48:18.425 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-21 23:48:18.426 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-21 23:48:18.453 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-21 23:48:18.454 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-21 23:48:18.462 -03:00 [DBG] Connection ID "18230571301796315145" disconnecting.
+2024-08-21 23:48:18.461 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 341.8608ms
+2024-08-21 23:48:18.485 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-21 23:48:18.489 -03:00 [DBG] Connection ID "18230571301796315147" disconnecting.
+2024-08-21 23:48:18.489 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 3.5992ms
+2024-08-21 23:48:18.541 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-21 23:48:18.573 -03:00 [DBG] Connection ID "18230571301796315149" disconnecting.
+2024-08-21 23:48:18.574 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.3904ms
+2024-08-21 23:48:18.591 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:48:19.003 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-21 23:48:19.242 -03:00 [DBG] Connection ID "18230571301796315151" disconnecting.
+2024-08-21 23:48:19.242 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 239.1651ms
+2024-08-21 23:48:19.362 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-21 23:48:19.389 -03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2024-08-21 23:48:19.572 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(500), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-21 23:48:19.601 -03:00 [DBG] Creating DbConnection.
+2024-08-21 23:48:19.614 -03:00 [DBG] Created DbConnection. (12ms).
+2024-08-21 23:48:19.617 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:48:19.642 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:48:19.648 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-21 23:48:19.653 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-08-21 23:48:19.655 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-08-21 23:48:19.660 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:48:19.687 -03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:48:19.704 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:48:19.718 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:48:19.718 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:48:19.722 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:48:19.727 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 36ms reading results.
+2024-08-21 23:48:19.732 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:48:19.734 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (2ms).
+2024-08-21 23:48:19.754 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:48:19.755 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:48:19.756 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-21 23:48:19.756 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-21 23:48:19.757 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-21 23:48:19.757 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityWithoutPointOfInterestDTO, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 23:48:19.857 -03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 1622.5494ms
+2024-08-21 23:48:19.857 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:48:19.859 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-21 23:48:19.862 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:48:19.865 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (2ms).
+2024-08-21 23:48:19.866 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 200 248 application/json; charset=utf-8 1750.0074ms
+2024-08-21 23:59:41.422 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-21 23:59:41.591 -03:00 [DBG] Hosting starting
+2024-08-21 23:59:41.773 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-21 23:59:41.773 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-21 23:59:41.773 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-21 23:59:41.773 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-21 23:59:41.782 -03:00 [DBG] Connection ID "18086456113720459268" disconnecting.
+2024-08-21 23:59:41.794 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-21 23:59:41.794 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:59:41.794 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities - application/json 139
+2024-08-21 23:59:41.811 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:59:41.812 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-21 23:59:41.849 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:59:41.877 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:59:42.005 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:59:42.005 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-08-21 23:59:42.009 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:59:42.009 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-08-21 23:59:42.011 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:42.011 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:42.016 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:42.016 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:42.054 -03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutPointOfInterestDTO]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-08-21 23:59:42.054 -03:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityInfo.API.Models.CityWithoutPointOfInterestDTO]]] GetCities() on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-08-21 23:59:42.061 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-21 23:59:42.061 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-21 23:59:42.067 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-21 23:59:42.067 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-21 23:59:42.068 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-21 23:59:42.068 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-21 23:59:42.068 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-21 23:59:42.069 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-21 23:59:42.069 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-21 23:59:42.069 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-21 23:59:42.071 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:42.071 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:42.214 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 23:59:42.214 -03:00 [INF] Hosting environment: Development
+2024-08-21 23:59:42.215 -03:00 [INF] Content root path: C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-21 23:59:42.215 -03:00 [DBG] Hosting started
+2024-08-21 23:59:42.315 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-21 23:59:42.315 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-21 23:59:42.332 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-21 23:59:42.337 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-21 23:59:42.379 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-21 23:59:42.380 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-21 23:59:42.383 -03:00 [DBG] Connection ID "18230571297501347850" disconnecting.
+2024-08-21 23:59:42.385 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 601.258ms
+2024-08-21 23:59:42.568 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:42.582 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:42.632 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-21 23:59:42.637 -03:00 [DBG] Connection ID "18158513707758387212" disconnecting.
+2024-08-21 23:59:42.638 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.8175ms
+2024-08-21 23:59:42.699 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-21 23:59:42.779 -03:00 [DBG] Connection ID "18302628900129210399" disconnecting.
+2024-08-21 23:59:42.785 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.0171ms
+2024-08-21 23:59:43.768 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-21 23:59:43.816 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-21 23:59:43.816 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-21 23:59:43.877 -03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .OrderBy(c => c.Name)'
+2024-08-21 23:59:44.294 -03:00 [DBG] Connection ID "18302628900129210401" disconnecting.
+2024-08-21 23:59:44.294 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 525.9989ms
+2024-08-21 23:59:44.304 -03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<City>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(500), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+        SELECT c.Id, c.Description, c.Name
+        FROM Cities AS c
+        ORDER BY c.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+    CityInfo.API.DbContexts.CityInfoContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-21 23:59:44.357 -03:00 [DBG] Creating DbConnection.
+2024-08-21 23:59:44.357 -03:00 [DBG] Creating DbConnection.
+2024-08-21 23:59:44.378 -03:00 [DBG] Created DbConnection. (16ms).
+2024-08-21 23:59:44.378 -03:00 [DBG] Created DbConnection. (16ms).
+2024-08-21 23:59:44.385 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:44.385 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:44.411 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.411 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.419 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-21 23:59:44.419 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-21 23:59:44.433 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2024-08-21 23:59:44.433 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2024-08-21 23:59:44.435 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2024-08-21 23:59:44.435 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (17ms).
+2024-08-21 23:59:44.450 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:59:44.450 -03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:59:44.493 -03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:59:44.493 -03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+ORDER BY "c"."Name"
+2024-08-21 23:59:44.537 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.538 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.567 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.567 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.567 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.567 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:44.576 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.576 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.586 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 84ms reading results.
+2024-08-21 23:59:44.586 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 84ms reading results.
+2024-08-21 23:59:44.593 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.593 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:44.599 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (6ms).
+2024-08-21 23:59:44.599 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (5ms).
+2024-08-21 23:59:44.635 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:59:44.635 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:59:44.638 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:59:44.638 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:59:44.639 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-21 23:59:44.639 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-21 23:59:44.639 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-21 23:59:44.639 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-21 23:59:44.641 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-21 23:59:44.642 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-21 23:59:44.642 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityWithoutPointOfInterestDTO, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 23:59:44.642 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.API.Models.CityWithoutPointOfInterestDTO, CityInfo.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-21 23:59:44.807 -03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 2733.4755ms
+2024-08-21 23:59:44.808 -03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API) in 2733.5474ms
+2024-08-21 23:59:44.808 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:44.808 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-08-21 23:59:44.811 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-21 23:59:44.812 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-21 23:59:44.818 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:44.818 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:44.819 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-21 23:59:44.819 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-08-21 23:59:44.820 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 200 248 application/json; charset=utf-8 3037.0467ms
+2024-08-21 23:59:44.820 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities - 200 248 application/json; charset=utf-8 3037.0442ms
+2024-08-21 23:59:47.281 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:44359/api/cities/1 - application/json 139
+2024-08-21 23:59:47.282 -03:00 [DBG] The request path  does not match the path filter
+2024-08-21 23:59:47.284 -03:00 [DBG] 1 candidate(s) found for the request path '/api/cities/1'
+2024-08-21 23:59:47.284 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)' with route pattern 'api/cities/{id}' is valid for the request path '/api/cities/1'
+2024-08-21 23:59:47.285 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)'
+2024-08-21 23:59:47.286 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)'
+2024-08-21 23:59:47.306 -03:00 [INF] Route matched with {action = "GetCity", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCity(Int32, Boolean) on controller CityInfo.API.Controllers.CitiesController (CityInfo.API).
+2024-08-21 23:59:47.306 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-21 23:59:47.306 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-21 23:59:47.307 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-21 23:59:47.307 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-21 23:59:47.309 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-21 23:59:47.309 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:47.316 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.CitiesController (CityInfo.API)
+2024-08-21 23:59:47.326 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-08-21 23:59:47.330 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-08-21 23:59:47.333 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-08-21 23:59:47.333 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-08-21 23:59:47.334 -03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-08-21 23:59:47.338 -03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-08-21 23:59:47.341 -03:00 [DBG] Attempting to bind parameter 'incluidePointsOfInterest' of type 'System.Boolean' ...
+2024-08-21 23:59:47.342 -03:00 [DBG] Attempting to bind parameter 'incluidePointsOfInterest' of type 'System.Boolean' using the name '' in request data ...
+2024-08-21 23:59:47.344 -03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'incluidePointsOfInterest' of type 'System.Boolean'.
+2024-08-21 23:59:47.344 -03:00 [DBG] Done attempting to bind parameter 'incluidePointsOfInterest' of type 'System.Boolean'.
+2024-08-21 23:59:47.344 -03:00 [DBG] Done attempting to bind parameter 'incluidePointsOfInterest' of type 'System.Boolean'.
+2024-08-21 23:59:47.345 -03:00 [DBG] Attempting to validate the bound parameter 'incluidePointsOfInterest' of type 'System.Boolean' ...
+2024-08-21 23:59:47.346 -03:00 [DBG] Done attempting to validate the bound parameter 'incluidePointsOfInterest' of type 'System.Boolean'.
+2024-08-21 23:59:47.473 -03:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-08-21 23:59:47.492 -03:00 [DBG] Compiling query expression: 
+'DbSet<City>()
+    .Where(c => c.Id == __cityId_0)
+    .FirstOrDefault()'
+2024-08-21 23:59:47.527 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<City>(
+    asyncEnumerable: new SingleQueryingEnumerable<City>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: City.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: City.Description (string) MaxLength(500), 1], [Property: City.Name (string) Required MaxLength(50), 2] }
+            SELECT TOP(1) c.Id, c.Description, c.Name
+            FROM Cities AS c
+            WHERE c.Id == @__cityId_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, City>, 
+        CityInfo.API.DbContexts.CityInfoContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-08-21 23:59:47.540 -03:00 [DBG] Creating DbConnection.
+2024-08-21 23:59:47.541 -03:00 [DBG] Created DbConnection. (1ms).
+2024-08-21 23:59:47.542 -03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:47.542 -03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:47.543 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-21 23:59:47.543 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-21 23:59:47.546 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-08-21 23:59:47.551 -03:00 [DBG] Executing DbCommand [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+WHERE "c"."Id" = @__cityId_0
+LIMIT 1
+2024-08-21 23:59:47.557 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__cityId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Description", "c"."Name"
+FROM "Cities" AS "c"
+WHERE "c"."Id" = @__cityId_0
+LIMIT 1
+2024-08-21 23:59:47.559 -03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-21 23:59:47.560 -03:00 [DBG] Closing data reader to 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:47.561 -03:00 [DBG] A data reader for 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db' is being disposed after spending 3ms reading results.
+2024-08-21 23:59:47.561 -03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\matia\Escritorio\Documents\Practicas .net\CityInfo\CityInfo.API\CityInfo.db'.
+2024-08-21 23:59:47.562 -03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-21 23:59:47.565 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-21 23:59:47.565 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-21 23:59:47.566 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-21 23:59:47.566 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-21 23:59:47.566 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-08-21 23:59:47.567 -03:00 [INF] Executing OkObjectResult, writing value of type 'CityInfo.API.Models.CityWithoutPointOfInterestDTO'.
+2024-08-21 23:59:47.568 -03:00 [INF] Executed action CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API) in 258.8338ms
+2024-08-21 23:59:47.568 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.CitiesController.GetCity (CityInfo.API)'
+2024-08-21 23:59:47.569 -03:00 [DBG] 'CityInfoContext' disposed.
+2024-08-21 23:59:47.569 -03:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-08-21 23:59:47.569 -03:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-08-21 23:59:47.570 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:44359/api/cities/1 - 200 75 application/json; charset=utf-8 288.8286ms

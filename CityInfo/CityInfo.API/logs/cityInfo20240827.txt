@@ -1,0 +1,132 @@
+2024-08-27 18:59:14.547 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-27 18:59:14.678 -03:00 [DBG] Hosting starting
+2024-08-27 18:59:14.956 -03:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-08-27 18:59:14.956 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-08-27 18:59:14.956 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-08-27 18:59:14.956 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-08-27 18:59:14.987 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger - null null
+2024-08-27 18:59:15.156 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 18:59:15.165 -03:00 [INF] Hosting environment: Development
+2024-08-27 18:59:15.166 -03:00 [INF] Content root path: C:\Users\matia\Documents\Practicas .net\CityInfo\CityInfo.API
+2024-08-27 18:59:15.166 -03:00 [DBG] Hosting started
+2024-08-27 18:59:15.934 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-27 18:59:15.979 -03:00 [DBG] Connection ID "18158513703463419905" disconnecting.
+2024-08-27 18:59:15.979 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/index.html - null null
+2024-08-27 18:59:16.046 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger - 301 null null 1068.1474ms
+2024-08-27 18:59:16.124 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-08-27 18:59:16.134 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-08-27 18:59:16.161 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-08-27 18:59:16.161 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-08-27 18:59:16.162 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/index.html - 200 null text/html;charset=utf-8 183.5797ms
+2024-08-27 18:59:16.193 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui-bundle.js - null null
+2024-08-27 18:59:16.193 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui.css - null null
+2024-08-27 18:59:16.198 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-27 18:59:16.218 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-27 18:59:16.218 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-27 18:59:16.219 -03:00 [DBG] Connection ID "18158513707758387203" disconnecting.
+2024-08-27 18:59:16.221 -03:00 [DBG] Connection ID "18374686494167138308" disconnecting.
+2024-08-27 18:59:16.221 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui.css - 200 152034 text/css 27.9184ms
+2024-08-27 18:59:16.221 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 23.9366ms
+2024-08-27 18:59:16.235 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 18:59:16.236 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-27 18:59:16.237 -03:00 [DBG] Connection ID "18374686494167138310" disconnecting.
+2024-08-27 18:59:16.239 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.9098ms
+2024-08-27 18:59:16.258 -03:00 [DBG] Connection ID "18302628887244308483" disconnecting.
+2024-08-27 18:59:16.258 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 65.6069ms
+2024-08-27 18:59:16.268 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/_vs/browserLink - null null
+2024-08-27 18:59:16.353 -03:00 [DBG] Connection ID "18158513703463419907" disconnecting.
+2024-08-27 18:59:16.353 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.687ms
+2024-08-27 18:59:17.494 -03:00 [INF] Request starting HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - null null
+2024-08-27 18:59:17.628 -03:00 [DBG] Connection ID "18302628887244308485" disconnecting.
+2024-08-27 18:59:17.628 -03:00 [INF] Request finished HTTP/2 GET https://localhost:44359/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.5074ms
+2024-08-27 18:59:57.471 -03:00 [INF] Request starting HTTP/2 POST https://localhost:44359/api/authentication/authenticate - application/json-patch+json 50
+2024-08-27 18:59:57.474 -03:00 [DBG] POST requests are not supported
+2024-08-27 18:59:57.530 -03:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2024-08-27 18:59:57.577 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2024-08-27 18:59:57.578 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 18:59:57.586 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 18:59:57.708 -03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2024-08-27 18:59:57.709 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 18:59:57.709 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-27 18:59:57.710 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-27 18:59:57.710 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 18:59:57.710 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-27 18:59:57.712 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 18:59:57.713 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 18:59:57.719 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 18:59:57.723 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2024-08-27 18:59:57.724 -03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2024-08-27 18:59:57.725 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2024-08-27 18:59:58.036 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 18:59:58.036 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 18:59:58.036 -03:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 18:59:58.046 -03:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 18:59:58.208 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-27 18:59:58.210 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-08-27 18:59:58.210 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-27 18:59:58.211 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-27 18:59:58.217 -03:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 503.685ms
+2024-08-27 18:59:58.217 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 18:59:58.217 -03:00 [INF] Request finished HTTP/2 POST https://localhost:44359/api/authentication/authenticate - 200 null text/plain; charset=utf-8 746.7058ms
+2024-08-27 19:00:21.966 -03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44359/api/authentication/authenticate - application/json 139
+2024-08-27 19:00:21.967 -03:00 [DBG] POST requests are not supported
+2024-08-27 19:00:21.969 -03:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2024-08-27 19:00:21.969 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2024-08-27 19:00:21.970 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:00:21.970 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:00:21.970 -03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2024-08-27 19:00:21.970 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 19:00:21.971 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-27 19:00:21.971 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-27 19:00:21.971 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 19:00:21.971 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-27 19:00:21.971 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 19:00:21.971 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 19:00:21.972 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 19:00:21.972 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2024-08-27 19:00:21.972 -03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2024-08-27 19:00:21.972 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2024-08-27 19:00:21.978 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:00:21.979 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:00:21.979 -03:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 19:00:21.979 -03:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:00:21.980 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-27 19:00:21.981 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-27 19:00:21.981 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-27 19:00:21.981 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-27 19:00:21.981 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-27 19:00:21.982 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-27 19:00:21.982 -03:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 11.3678ms
+2024-08-27 19:00:21.982 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:00:21.983 -03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44359/api/authentication/authenticate - 200 null text/plain; charset=utf-8 17.4089ms
+2024-08-27 19:01:12.897 -03:00 [INF] Request starting HTTP/1.1 POST https://localhost:44359/api/authentication/authenticate - application/json 80
+2024-08-27 19:01:12.897 -03:00 [DBG] POST requests are not supported
+2024-08-27 19:01:12.897 -03:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/authenticate'
+2024-08-27 19:01:12.897 -03:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)' with route pattern 'api/authentication/authenticate' is valid for the request path '/api/authentication/authenticate'
+2024-08-27 19:01:12.897 -03:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:01:12.898 -03:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:01:12.898 -03:00 [INF] Route matched with {action = "Authenticate", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Authenticate(AuthenticationRequestBody) on controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API).
+2024-08-27 19:01:12.898 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-08-27 19:01:12.898 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-08-27 19:01:12.898 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-08-27 19:01:12.898 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-27 19:01:12.898 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-08-27 19:01:12.898 -03:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 19:01:12.898 -03:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (CityInfo.API)
+2024-08-27 19:01:12.899 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 19:01:12.899 -03:00 [DBG] Attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' using the name '' in request data ...
+2024-08-27 19:01:12.899 -03:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2024-08-27 19:01:12.899 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2024-08-27 19:01:12.900 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:01:12.900 -03:00 [DBG] Done attempting to bind parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:01:12.900 -03:00 [DBG] Attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody' ...
+2024-08-27 19:01:12.900 -03:00 [DBG] Done attempting to validate the bound parameter 'authenticationRequestBody' of type 'CityInfo.API.Controllers.AuthenticationController+AuthenticationRequestBody'.
+2024-08-27 19:01:12.900 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-08-27 19:01:12.900 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-08-27 19:01:12.900 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-08-27 19:01:12.900 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-08-27 19:01:12.901 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-08-27 19:01:12.901 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-27 19:01:12.901 -03:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API) in 3.1892ms
+2024-08-27 19:01:12.902 -03:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.Authenticate (CityInfo.API)'
+2024-08-27 19:01:12.902 -03:00 [INF] Request finished HTTP/1.1 POST https://localhost:44359/api/authentication/authenticate - 200 null text/plain; charset=utf-8 4.8644ms
